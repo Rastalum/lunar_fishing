@@ -11,7 +11,7 @@ lib.onCache('vehicle', function(vehicle)
         return
     end
     
-    if IsPedInAnyBoat(cache.ped) then
+    if IsPedInAnyBoat(cache.ped) and IsPedDiving(cache.ped) then
         local localeName = IsBoatAnchoredAndFrozen(vehicle) and 'raise_anchor' or 'anchor_boat'
         ShowUI(locale(localeName, keybind.currentKey), 'anchor')
         shown = true

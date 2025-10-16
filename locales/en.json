@@ -40,5 +40,8 @@
     "bait_price": "Click to buy this bait for %s$.",
     "return_boat": "[%s] - Return boat",
     "return_content": "Do you really want to return this boat?  \n  The rental will pay you %s$ in exchange.",
-    "returned_boat": "You've successfully returned the boat."
+    "returned_boat": "You've successfully returned the boat.",
+    "msg_anchor_to_fast": "To fast to anchor.",
+    "msg_anchor_raised": "Anchor raised.",
+    "msg_anchor_lowered": "Anchor dropped."
 }

@@ -140,7 +140,7 @@ lib.callback.register('lunar_fishing:itemUsed', function(bait, fish)
     local p = promise.new()
 
     local interval = SetInterval(function()
-        if IsControlPressed(0, 38)
+        if IsControlPressed(0, 73) -- X cancel
         or (not IsEntityPlayingAnim(cache.ped, 'mini@tennis', 'forehand_ts_md_far', 3)
         and not IsEntityPlayingAnim(cache.ped, 'amb@world_human_stand_fishing@idle_a', 'idle_c', 3)) then
             HideUI()
